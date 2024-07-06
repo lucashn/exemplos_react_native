@@ -7,16 +7,28 @@ export default function App() {
   const [saldo, setSaldo] = useState(0)
   const [valorOperacao, setValorOperacao] = useState("")
 
+  const fmt = saldo.toFixed(2)
+
   function creditar() {
     let val = parseFloat(valorOperacao)
-    setSaldo(saldo + val)
+    if(isNaN(val) || val < 0) {
+      alert("Favor digitar um número válido")
+    } else {
+      setSaldo(saldo + val)
+    }
   }
 
   function debitar() {
     let val = parseFloat(valorOperacao)
-    
-    if(saldo - val >= 0)
+    if(isNaN(val) || val < 0) {
+      alert("Favor digitar um número válido")
+    } else {
       setSaldo(saldo - val)
+    }
+  }
+
+  function ajuda() {
+    alert("Um Jedi foi enviado para te ajudar")
   }
 
   return (
@@ -26,7 +38,7 @@ export default function App() {
       </Text>
 
       <View>
-        <Text>Saldo: {saldo}</Text>
+        <Text>Saldo: {fmt}</Text>
       </View>
 
       <TextInput style={styles.entrada}
@@ -38,24 +50,38 @@ export default function App() {
       <View style={styles.quadroBotoes}>
         <Button title="Creditar" onPress={creditar}/>
         <Button title="Debitar" onPress={debitar}/>
+        <Button title="Ajuda Jedi" onPress={ajuda}/>
       </View>
 
       <Image source={rebel} style={styles.logo} />
+
+      <View style={styles.rodape}>
+        Banco da república
+      </View>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
+  rodape: {
+    backgroundColor: "#0081f1",
+    margin: 0,
+    padding: 0,
+    width: '100%',
+    height: 40,
+    marginTop: 50,
+    color: "white",
+    textAlign: "center",
+    lineHeight: 40
+  },
   container: {
-    flex: 1,
     justifyContent: 'center',
-    backgroundColor: '#FFFFFF',
-    padding: 8,
+    backgroundColor: '#FFFFFF'
   },
   titulo: {
     textAlign: "center",
     fontSize: 20,
-    paddingBottom: 30
+    padding: 30
   },
   entrada: {
     marginTop: 20,
