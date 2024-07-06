@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="180"
+   height="180"
+   viewBox="0 0 180 180"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="4.2722222"
+     inkscape:cx="90"
+     inkscape:cy="89.882965"
+     inkscape:window-width="1920"
+     inkscape:window-height="1010"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g2896"
+       transform="matrix(1.7107328,0,0,1.7107328,-63.546083,-76.622884)">
+      <path
+         sodipodi:type="star"
+         style="fill:#d40000;fill-opacity:1;stroke:none;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path31"
+         inkscape:flatsided="true"
+         sodipodi:sides="3"
+         sodipodi:cx="88.968628"
+         sodipodi:cy="103.40966"
+         sodipodi:r1="52.518692"
+         sodipodi:r2="26.259344"
+         sodipodi:arg1="0.52359878"
+         sodipodi:arg2="1.5707963"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="m 134.45115,129.66901 -90.965044,0 45.482522,-78.778042 z"
+         inkscape:transform-center-y="-13.129673" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.6667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="-61.748356"
+         y="98.565819"
+         id="text1487"
+         transform="rotate(-60.55316)"><tspan
+           sodipodi:role="line"
+           id="tspan1485"
+           x="-61.748356"
+           y="98.565819"
+           style="font-size:10.6667px">Queijo</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.6667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="121.74004"
+         y="-46.836536"
+         id="text1487-3"
+         transform="rotate(55.626968)"><tspan
+           sodipodi:role="line"
+           id="tspan1485-6"
+           x="121.74004"
+           y="-46.836536"
+           style="font-size:10.6667px">Queijo</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.6667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="71.86618"
+         y="141.5652"
+         id="text1487-3-7"
+         transform="rotate(0.2219431)"><tspan
+           sodipodi:role="line"
+           id="tspan1485-6-5"
+           x="71.86618"
+           y="141.5652"
+           style="font-size:10.6667px">Queijo</tspan></text>
+    </g>
+  </g>
+</svg>
